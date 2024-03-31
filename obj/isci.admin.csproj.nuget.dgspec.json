@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dbb/Schreibtisch/git/isci.admin/isci.admin.csproj": {}
+  },
+  "projects": {
+    "/home/dbb/Schreibtisch/git/isci.admin/isci.admin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dbb/Schreibtisch/git/isci.admin/isci.admin.csproj",
+        "projectName": "isci.admin",
+        "projectPath": "/home/dbb/Schreibtisch/git/isci.admin/isci.admin.csproj",
+        "packagesPath": "/home/dbb/.nuget/packages/",
+        "outputPath": "/home/dbb/Schreibtisch/git/isci.admin/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dbb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "netcoreapp8.0",
+            "projectReferences": {
+              "/home/dbb/Schreibtisch/git/isci/isci.csproj": {
+                "projectPath": "/home/dbb/Schreibtisch/git/isci/isci.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "netcoreapp8.0",
+          "dependencies": {
+            "Simple-HTTP": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/dbb/Schreibtisch/dotnet/dotnet-sdk-8.0.100-linux-x64/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/dbb/Schreibtisch/git/isci/isci.csproj": {
+      "version": "1.0.0-beta",
+      "restore": {
+        "projectUniqueName": "/home/dbb/Schreibtisch/git/isci/isci.csproj",
+        "projectName": "isci",
+        "projectPath": "/home/dbb/Schreibtisch/git/isci/isci.csproj",
+        "packagesPath": "/home/dbb/.nuget/packages/",
+        "outputPath": "/home/dbb/Schreibtisch/git/isci/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dbb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "IPAddressRange": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Makaretu.Dns.Multicast": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/dbb/Schreibtisch/dotnet/dotnet-sdk-8.0.100-linux-x64/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
